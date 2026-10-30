@@ -8,8 +8,11 @@ NURUL AMNIE BINTI SALEHUDDIN		A210070
 FARISYA AFIFI BINTI MUHAMMAD NUH	A209899
 NURUL SYAFIYAH HANI BINTI BAHARUDIN	A210643
 
-Scenario
-Organization: A large-scale online book retailer (e.g., Amazon Books) that receives millions of customer reviews daily.
+Scenario:  
+-large-scale online book retailer such as Amazon Books receives thousands of customer reviews daily. Before this raw review data can feed into a sentiment-analysis pipeline, it must be profiled and cleaned of missing values, price outliers, inconsistent formats, and PII risks.
+
+-He, Hollenbeck, and Proserpio (2022) documented that the market for fake reviews on Amazon is significant — meaning raw e-commerce review data is inherently noisy and requires rigorous cleaning before analysis. Positivity bias in online reviews is also well established in the literature (e.g., Hu, Pavlou & Zhang, 2009), which makes rating-skew profiling an essential preprocessing step.
+
 
 Business Question: How can we automate the profiling and cleaning of raw customer review data to identify data quality issues (such as missing values, price outliers, and PII risks) before the data can be used for customer sentiment analysis?
 
