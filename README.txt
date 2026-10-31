@@ -90,8 +90,8 @@ pip install pandas numpy matplotlib seaborn
 Clone the Repository:
 
 bash
-git clone <your-github-repo-link>
-cd <your-repo-name>
+git clone https://github.com/a209899-Fify/assignment1-Data-Profiling-EDA-.git
+cd assignment1-Data-Profiling-EDA-
 Ensure Data Files are Present in the same directory as the notebook:
 
 Top-100_Trending Books.csv
